@@ -21,6 +21,8 @@ export type Memory = {
 
 // Replace the "src" with your own photos placed in /public/images
 // Keep the same filenames or update the paths below to match.
+// Add or remove entries freely — the timeline lays itself out automatically,
+// no matter how many memories you list here.
 export const memories: Memory[] = [
   {
     id: 0,
@@ -80,6 +82,99 @@ export const memories: Memory[] = [
     date: "Right now",
     caption: "Still you. Still me. Still completely in love.",
     rotate: "rotate-2",
+  },
+  {
+    id: 7,
+    src: "/images/memory-8.svg",
+    alt: "A quiet in-between moment",
+    date: "A quiet moment",
+    caption: "Not a big occasion — just you, close by, and that was enough.",
+    rotate: "-rotate-2",
+  },
+  {
+    id: 8,
+    src: "/images/memory-9.svg",
+    alt: "A celebration together",
+    date: "A celebration",
+    caption: "Some days call for celebrating, and I only ever want you there.",
+    rotate: "rotate-3",
+  },
+  {
+    id: 9,
+    src: "/images/memory-10.svg",
+    alt: "A hard day made easier",
+    date: "A hard day, softened",
+    caption: "You didn't fix it. You just stayed, and that fixed enough.",
+    rotate: "-rotate-3",
+  },
+  {
+    id: 10,
+    src: "/images/memory-11.svg",
+    alt: "Somewhere new together",
+    date: "Somewhere new",
+    caption:
+      "New places feel less like adventures and more like home, with you in them.",
+    rotate: "rotate-2",
+  },
+  {
+    id: 11,
+    src: "/images/memory-12.svg",
+    alt: "A festival or holiday together",
+    date: "A festival together",
+    caption:
+      "Every holiday has a little more color since you started spending them with me.",
+    rotate: "-rotate-2",
+  },
+  {
+    id: 12,
+    src: "/images/memory-13.svg",
+    alt: "Looking ahead, together",
+    date: "Looking ahead",
+    caption: "Whatever comes next, I already know I want you in it.",
+    rotate: "rotate-3",
+  },
+  {
+    id: 13,
+    src: "/images/memory-14.svg",
+    alt: "A rainy day together",
+    date: "A rainy day",
+    caption: "Even the gray days feel warmer with you next to me.",
+    rotate: "-rotate-3",
+  },
+  {
+    id: 14,
+    src: "/images/memory-15.svg",
+    alt: "Cooking or eating together",
+    date: "A meal together",
+    caption:
+      "Some of my favorite conversations happen over the smallest meals.",
+    rotate: "rotate-2",
+  },
+  {
+    id: 15,
+    src: "/images/memory-16.svg",
+    alt: "Late night talk",
+    date: "A late night talk",
+    caption:
+      "The best conversations always seem to happen after midnight, with you.",
+    rotate: "-rotate-2",
+  },
+  {
+    id: 16,
+    src: "/images/memory-17.svg",
+    alt: "A surprise moment",
+    date: "A little surprise",
+    caption:
+      "I love catching you off guard almost as much as I love your reaction.",
+    rotate: "rotate-3",
+  },
+  {
+    id: 17,
+    src: "/images/memory-18.svg",
+    alt: "Just us, doing nothing",
+    date: "Just us",
+    caption: "Doing absolutely nothing has never felt like this much.",
+    rotate: "-rotate-3",
   },
 ];
 
