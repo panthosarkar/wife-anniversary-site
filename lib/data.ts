@@ -38,7 +38,7 @@ export const memories: Memory[] = [
     src: "/images/when_we_met.jpeg",
     alt: "The day we met",
     date: "Where it began",
-    caption: "The first time I saw you, and somehow I already knew.",
+    caption: "The first time we met, and somehow I already knew.",
     rotate: "-rotate-3",
   },
   {
@@ -85,7 +85,7 @@ export const memories: Memory[] = [
   },
   {
     id: 7,
-    src: "/images/memory-8.svg",
+    src: "/images/big_occasion.jpeg",
     alt: "A quiet in-between moment",
     date: "A quiet moment",
     caption: "Not a big occasion — just you, close by, and that was enough.",
@@ -93,7 +93,7 @@ export const memories: Memory[] = [
   },
   {
     id: 8,
-    src: "/images/memory-9.svg",
+    src: "/images/celebrated_together.jpeg",
     alt: "A celebration together",
     date: "A celebration",
     caption: "Some days call for celebrating, and I only ever want you there.",
@@ -101,7 +101,7 @@ export const memories: Memory[] = [
   },
   {
     id: 9,
-    src: "/images/memory-10.svg",
+    src: "/images/hard_day.jpeg",
     alt: "A hard day made easier",
     date: "A hard day, softened",
     caption: "You didn't fix it. You just stayed, and that fixed enough.",
@@ -109,7 +109,7 @@ export const memories: Memory[] = [
   },
   {
     id: 10,
-    src: "/images/memory-11.svg",
+    src: "/images/somewhere_new.jpeg",
     alt: "Somewhere new together",
     date: "Somewhere new",
     caption:
@@ -118,7 +118,7 @@ export const memories: Memory[] = [
   },
   {
     id: 11,
-    src: "/images/memory-12.svg",
+    src: "/images/festival.jpeg",
     alt: "A festival or holiday together",
     date: "A festival together",
     caption:
@@ -127,7 +127,7 @@ export const memories: Memory[] = [
   },
   {
     id: 12,
-    src: "/images/memory-13.svg",
+    src: "/images/looking_ahead.jpeg",
     alt: "Looking ahead, together",
     date: "Looking ahead",
     caption: "Whatever comes next, I already know I want you in it.",
@@ -135,33 +135,33 @@ export const memories: Memory[] = [
   },
   {
     id: 13,
-    src: "/images/memory-14.svg",
-    alt: "A rainy day together",
-    date: "A rainy day",
+    src: "/images/rainy.jpeg",
+    alt: "A home day together",
+    date: "A Home day",
     caption: "Even the gray days feel warmer with you next to me.",
     rotate: "-rotate-3",
   },
   {
     id: 14,
-    src: "/images/memory-15.svg",
+    src: "/images/meal.jpeg",
     alt: "Cooking or eating together",
     date: "A meal together",
     caption:
-      "Some of my favorite conversations happen over the smallest meals.",
+      "Some of my favorite conversations happen over the smallest meals.But that naga chicken was too spicy for us :)",
     rotate: "rotate-2",
   },
   {
     id: 15,
-    src: "/images/memory-16.svg",
-    alt: "Late night talk",
-    date: "A late night talk",
+    src: "/images/stay.jpeg",
+    alt: "no talk, just us",
+    date: "No talk, just us",
     caption:
-      "The best conversations always seem to happen after midnight, with you.",
+      "Sometimes, the best moments are the ones where we don't say a word, and just stay together.",
     rotate: "-rotate-2",
   },
   {
     id: 16,
-    src: "/images/memory-17.svg",
+    src: "/images/surprise.jpeg",
     alt: "A surprise moment",
     date: "A little surprise",
     caption:
@@ -170,7 +170,7 @@ export const memories: Memory[] = [
   },
   {
     id: 17,
-    src: "/images/memory-18.svg",
+    src: "/images/just_us.jpeg",
     alt: "Just us, doing nothing",
     date: "Just us",
     caption: "Doing absolutely nothing has never felt like this much.",
