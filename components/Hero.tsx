@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import FloatingHearts from "./FloatingHearts";
 import { siteInfo } from "@/lib/data";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -35,7 +36,13 @@ export default function Hero() {
         <br />
         <span className="text-blush-500">My forever</span>
       </motion.h1>
-
+      <Image
+        src="/images/s.jpeg"
+        alt="Heart"
+        width={100}
+        height={100}
+        className="mt-6 rounded-full border-4 border-blush-500 object-cover shadow-lg shadow-blush-500/30 size-52"
+      />
       <motion.p
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -62,7 +69,7 @@ export default function Hero() {
           opacity: { duration: 1, delay: 1.4 },
           y: { duration: 1.8, repeat: Infinity, ease: "easeInOut", delay: 1.6 },
         }}
-        className="mt-14 flex flex-col items-center gap-2 text-inkplum/60 transition hover:text-blush-500"
+        className="flex flex-col items-center gap-2 text-inkplum/60 transition hover:text-blush-500"
       >
         <span className="font-body text-sm tracking-wide">Begin our story</span>
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
