@@ -171,9 +171,10 @@ export const memories: Memory[] = [
   {
     id: 17,
     src: "/images/just_us.jpeg",
-    alt: "Just us, doing nothing",
+    alt: "Just us, doing everything and nothing",
     date: "Just us",
-    caption: "Doing absolutely nothing has never felt like this much.",
+    caption:
+      "Doing absolutely everything and nothing has never felt like this much.",
     rotate: "-rotate-3",
   },
 ];
